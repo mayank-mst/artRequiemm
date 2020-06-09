@@ -1,0 +1,67 @@
+body{
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-image: url(D:/Documents/Projects/Photos/front.jpg);
+  background-repeat: no-repeat;
+  background-color: #333;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+li {
+  float: right;
+  cursor: pointer;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #FF4500;
+  border-radius: 10px 10px 10px 10px;
+}
+
+
+.bg-text {
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  padding: 0px;
+  text-align: center;
+  color: white;
+}
+.toptext{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.bottomnav{
+  position: absolute;
+  bottom: 10px;
+  border: 3px solid #8AC007;
+}
+
+.intro{
+  letter-spacing: 0.1em;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: justify;
+  padding: 10px;
+  color: white;
+  display:inline-block;
+}

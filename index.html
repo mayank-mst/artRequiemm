@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Art Requiemm</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="topnav.css" >
+  <link rel="stylesheet" href="social.css" >
+  <link rel="stylesheet" href="content.css" >
+  <link rel="stylesheet" href="about.css" >
+  <link rel="stylesheet" href="image.css" >
+  <link rel="stylesheet" href="contact.css" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="image.js"></script>
+  <script src="filter.js"></script>
+</head>
+<body>
+  <div class="toptext">
+    <ul>
+    	<li><a href="#contact" class="fa fa-envelope" > Contact</a></li>
+    	<li><a class="fa fa-exclamation" onclick="openNav()"> About</a></li>
+    	<li><a href="" class="fa fa-book"> Blog</a></li>
+    	<li><a href="" class="fa fa-home"> Home</a></li>
+    	<li style="float: left;font-size: 20px;"><a href="">Art Requiemm</a></li>
+    </ul>
+  </div>
+  <hr>
+  <div class="bg-text">
+  	<h1>Welcome! Personal Blog Shots</h1>
+  </div>
+  <p class="intro"> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+  <br><br><br><br><br><br><br><br>
+  <hr>
+  <div id="mySidenav" class="sidenav">
+    <a href="#" id="facebook" class="fa fa-facebook"> facebook</a>
+    <a href="#" id="instagram" class="fa fa-instagram"> instagram</a>
+    <a href="#" id="twitter" class="fa fa-twitter"> twitter</a>
+    <a href="#" id="snapchat" class="fa fa-snapchat-ghost"> snapchat</a>
+    <a href="#" id="linkedin" class="fa fa-linkedin"> linkedin</a>
+  </div>
+
+    <div class="column buttons">
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('photos')"> Photos</button>
+        <button class="btn" onclick="filterSelection('writings')"> Writings</button>
+      </div>
+    </div>
+    <div class="column grids">
+      
+      <!-- Portfolio Gallery Grid -->
+        <div class="column photos">
+          <div class="content">
+            <h4>Mountains</h4>
+            <img class="myImg" src="D:/Documents/Projects/artRequiemm/Photos/IMG_20200525_132002.jpg" alt="photos">
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+
+        <div class="column photos">
+          <div class="content">
+            <h4>Lights</h4>
+            <img class="myImg" src="D:/Documents/Projects/artRequiemm/Photos/IMG_20200413_182903.jpg" alt="photos" >
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="column writings myImg">
+          <div class="content">
+            <h4>Fast</h4>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
+            <p style="text-align: right;">Continue Reading...</p>
+          </div>
+        </div>
+        <div class="column writings myImg">
+          <div class="content">
+             <h4>Classic</h4>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
+            <p style="text-align: right;">Continue Reading...</p>
+          </div>
+        </div>
+         <div class="column writings myImg">
+          <div class="content">
+            <h4>Classic</h4>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
+            <p style="text-align: right;">Continue Reading...</p>
+          </div>
+        </div>
+
+        <div class="column photos">
+          <div class="content">
+             <h4>Lights</h4>
+            <img class="myImg" src="D:/Documents/Projects/artRequiemm/Photos/IMG20200429172053.jpg" alt="photos" >           
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="column writings myImg">
+          <div class="content">
+            <h4>Fast</h4>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>            
+            <p style="text-align: right;">Continue Reading...</p>
+          </div>
+        </div>
+        <div class="column photos">
+          <div class="content">
+            <h4>Lights</h4>
+            <img class="myImg" src="D:/Documents/Projects/artRequiemm/Photos/IMG_20200411_060839.jpg" alt="photos" >
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="column writings myImg">
+          <div class="content">
+            <h4>Lights</h4>
+
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>            
+            <p style="text-align: right;">Continue Reading...</p>
+          </div>
+        </div>
+      <!-- END GRID -->
+    </div>
+
+  <!--About-->
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="about-section">
+      <h1 style="font-size:30px">Our Team</h1>
+      <p>Some text about who we are and what we do.</p>
+      <p>Resize the browser window to see that this page is responsive by the way.</p>
+    </div>
+    <div class="aboutcolumn aboutcard">
+      <div class="content">
+        <img src="D:/Documents/Projects/artRequiemm/Photos/38478846_548659782218729_8703904529906663424_n.jpg" alt="Mountains">
+        <h4>Mayank</h4>
+        <p>Lorem ipsum dolor..</p>
+        <div class="sabout">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-snapchat-ghost"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+        </div>
+      </div>
+    </div>
+    <div class="aboutcolumn aboutcard">
+      <div class="content">
+        <img src="D:/Documents/Projects/artRequiemm/Photos/IMG_20200525_205723-01-01.jpeg" alt="Mountains">
+        <h4>Vibhutu</h4>
+        <p>Lorem ipsum dolor..</p>
+        <div class="sabout">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-snapchat-ghost"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+  </script>
+
+   <!-- The Modal -->
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Title</h2>
+          </div>
+          <div class="modal-body">
+            <img class="modal-content" id="img01">
+            <p style="text-align: center;">Some text in the Modal Body</p>
+          </div>
+          <div class="modal-footer">
+             <a href=""><div id="caption"></div></a>
+          </div>
+        </div>
+      </div>
+    <!--Contact-->
+    <div class="contactcolumn contactcard">
+          <div style="text-align:center">
+            <h2 id="contact">Contact Us</h2>
+            <p>Swing by for a cup of coffee, or leave us a message:</p>
+          </div>
+              <form>
+              <div class="container">
+                <div class="group">      
+                  <input id="name" name="name" type="text" required>
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>Name</label>
+                </div>
+
+                <div class="group">
+                  <input type="text" required>
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>Email</label>
+                </div>
+
+                 <div class="group">      
+                  <input id="subject" name="subject" type="text" required>
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>Subject</label>
+                </div>
+
+                <div class="group">      
+                  <textarea id="subject" name="subject" placeholder="Your Message.." ></textarea>
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                </div> 
+                 <input type="submit" value="Submit">
+              </div>
+              </form>
+      </div>
+</body>
+</html>

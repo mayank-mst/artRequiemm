@@ -1,0 +1,70 @@
+#mySidenav a {
+  position: fixed;
+  right: -105px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 110px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px 0px 0px 5px;
+}
+
+#mySidenav a:hover {
+  right: 0;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+#facebook {
+  top: 220px;
+  background-color: #3B5998;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+#instagram {
+  top: 280px;
+  background: writings;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+#twitter {
+  top: 340px;
+  background: #55ACEE;
+}
+
+.fa-snapchat-ghost {
+  color: white;
+}
+
+#snapchat {
+  top: 400px;
+  background: #fffc00;
+}
+
+.fa-linkedin {
+  color: white;
+}
+
+#linkedin{
+  top: 460px;
+  background: #007bb5;
+}
+
+
+/*div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}*/
